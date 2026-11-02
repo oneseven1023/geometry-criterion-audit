@@ -1,0 +1,4 @@
+# 原始数据集压缩包，共 6.1 GB
+# Wi3R.zip 2793 MB、WiPTR.zip 3411 MB，均超出 GitHub 单文件 100 MB 上限
+# 也不在本次上传范围内，数据获取方式见 results 与 python 中的处理脚本
+Qualcomm_Wireless_Indoor_Simulations/*.zip

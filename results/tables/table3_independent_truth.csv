@@ -1,0 +1,16 @@
+Quantity,Value,Note
+Number of links,"5,303","stratified sample, 11 splits, 307 floors"
+Rank from the criterion,3 for 100% of links,criterion passes everywhere
+"Monte Carlo variance ratio, median $x$",0.996,"achieved / CRB, 1.0 means CRB exact"
+"Monte Carlo variance ratio, median $y$",0.989,achieved / CRB
+"Monte Carlo variance ratio, median $z$",1.003,vertical axis
+"Monte Carlo variance ratio, $z$, 90th pct",1.432,tail of the vertical axis
+"Monte Carlo variance ratio, $z$, in the most vertical-degenerate bin",0.964,median $s_z$ in that bin 0.90
+"Estimation bias, median norm",0.047 m,should be near zero
+Multi-start: second solution found,1.64% (87/5303),"local solve, so this is a lower bound"
+"Multi-start ambiguity, single-anchor links",5.32%,n = 1071
+"Multi-start ambiguity, multi-anchor links",0.71%,n = 4232
+Diagnosis of those solutions,near-mirror images,VA cloud $s_3/s_1$ median 0.020; distance to the mirror point median 0.055 m
+"Data-driven vertical / horizontal sensitivity, WiPTR/val_grid",0.165,"pilot, first-path delay regression, no model involved"
+"Data-driven vertical / horizontal sensitivity, WiPTR/val_ood",0.040,pilot
+"Data-driven vertical / horizontal sensitivity, Wi3R/main_5tx",0.062,pilot

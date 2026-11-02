@@ -1,0 +1,12 @@
+[Wi3R/grid] 24850 links, 0.7s
+[Wi3R/main_5tx] 2000000 links, 144.6s
+[Wi3R/outofdistribution/fourrooms] 50000 links, 3.1s
+[Wi3R/outofdistribution/scaled] 50000 links, 3.1s
+[Wi3R/outofdistribution/squared] 50000 links, 3.0s
+[WiPTR/test] 197903 links, 14.7s
+[WiPTR/train] 1982162 links, 189.0s
+[WiPTR/train_grid] 35394 links, 2.0s
+[WiPTR/val] 198295 links, 14.1s
+[WiPTR/val_grid] 26848 links, 1.4s
+[WiPTR/val_ood] 1000 links, 0.1s
+total 376.5s

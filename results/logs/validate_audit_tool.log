@@ -1,0 +1,27 @@
+  WiPTR/train_grid                       已写出 2 个场景
+  WiPTR/val_grid                         已写出 2 个场景
+
+完成：C:\Users\one_seven\Desktop\定位26.10.01\rt_localization\results\audit_validation_snapshot\links.csv
+       C:\Users\one_seven\Desktop\定位26.10.01\rt_localization\results\audit_validation_snapshot\scene_meta.csv
+       C:\Users\one_seven\Desktop\定位26.10.01\rt_localization\results\audit_validation_snapshot\paths.csv
+=== 对全量脚本（WiPTR/val_grid，链路 26,848）===
+  OK rank         工具     3.00000000 | 全量     3.00000000 | 相对偏差 0.00e+00
+  OK kappa        工具    40.58513041 | 全量    40.58513041 | 相对偏差 0.00e+00
+  OK d_eff        工具     1.53450787 | 全量     1.53450787 | 相对偏差 0.00e+00
+  OK share_z      工具     0.80919382 | 全量     0.80919382 | 相对偏差 0.00e+00
+  OK mean_abs_uz  工具     0.13376580 | 全量     0.13376580 | 相对偏差 0.00e+00
+  用时 0.60s
+[rebuild] C:\Users\one_seven\Desktop\定位26.10.01\rt_localization\python\normalize_rt.py --source public --public-root C:\Users\one_seven\Desktop\定位26.10.01\rt_localization\data\public_raw --outdir C:\Users\one_seven\Desktop\定位26.10.01\rt_localization\results\audit_validation_snapshot --datasets WiPTR --splits train_grid val_grid --max-floors-per-split 2 --with-paths --max-path-floors 2
+
+=== 跨后端（同一批楼层，CSV 12,898 对 h5 12,898 链路）===
+  OK rank         CSV     3.00000000 | h5     3.00000000 | 相对偏差 0.00e+00
+  OK kappa        CSV    39.42162610 | h5    39.42139583 | 相对偏差 5.84e-06
+  OK d_eff        CSV     1.48050241 | h5     1.48050307 | 相对偏差 4.44e-07
+  OK share_z      CSV     0.81654501 | h5     0.81654622 | 相对偏差 1.48e-06
+  OK mean_abs_uz  CSV     0.13188564 | h5     0.13188563 | 相对偏差 5.41e-08
+  OK n_anchor     CSV     2.00000000 | h5     2.00000000 | 相对偏差 0.00e+00
+  OK n_path       CSV    50.00000000 | h5    50.00000000 | 相对偏差 0.00e+00
+  OK 严格假通过%  CSV      61.381610 | h5      61.381610
+  CSV 后端用时 1.56s
+
+结论： 全部通过

@@ -1,0 +1,14 @@
+split,n,rankcorr_kappa_sharez,rankcorr_kappa_meanuz
+Wi3R_grid,24850,0.3396,-0.6724
+Wi3R_main_5tx,2000000,-0.2582,-0.4134
+Wi3R_outofdistribution_fourrooms,50000,-0.1333,-0.4444
+Wi3R_outofdistribution_scaled,50000,-0.1939,-0.4178
+Wi3R_outofdistribution_squared,50000,-0.4314,-0.2434
+WiPTR_test,197903,0.7794,-0.6559
+WiPTR_train,1982162,0.7817,-0.6724
+WiPTR_train_grid,35394,0.8103,-0.8406
+WiPTR_val,198295,0.7848,-0.6717
+WiPTR_val_grid,26848,0.8342,-0.8624
+WiPTR_val_ood,1000,0.7889,-0.7420
+Wi3R 合计,2174850,-0.2454,-0.4110
+WiPTR 合计,2441602,0.7824,-0.6749

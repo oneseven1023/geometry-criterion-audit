@@ -1,0 +1,3 @@
+[audit] normalized:data/normalized  链路 30,086  用时 3.45 s
+        秩 3 比例 99.79%  严格假通过 60.70%  share_z 中位 0.8022
+        报告 -> results\audit_demo_normalized\audit_report.md

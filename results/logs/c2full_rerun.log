@@ -1,0 +1,13 @@
+[Wi3R/grid] 楼层 2  链路 24850  用时 0.5s  -> c2full_Wi3R_grid.csv
+[Wi3R/main_5tx] 楼层 5000  链路 2000000  用时 107.7s  -> c2full_Wi3R_main_5tx.csv
+[Wi3R/outofdistribution/fourrooms] 楼层 250  链路 50000  用时 2.2s  -> c2full_Wi3R_outofdistribution_fourrooms.csv
+[Wi3R/outofdistribution/scaled] 楼层 250  链路 50000  用时 2.1s  -> c2full_Wi3R_outofdistribution_scaled.csv
+[Wi3R/outofdistribution/squared] 楼层 250  链路 50000  用时 2.1s  -> c2full_Wi3R_outofdistribution_squared.csv
+[WiPTR/test] 楼层 1000  链路 197903  用时 10.3s  -> c2full_WiPTR_test.csv
+[WiPTR/train] 楼层 10000  链路 1982162  用时 147.6s  -> c2full_WiPTR_train.csv
+[WiPTR/train_grid] 楼层 10  链路 35394  用时 1.2s  -> c2full_WiPTR_train_grid.csv
+[WiPTR/val] 楼层 1000  链路 198295  用时 9.9s  -> c2full_WiPTR_val.csv
+[WiPTR/val_grid] 楼层 10  链路 26848  用时 0.8s  -> c2full_WiPTR_val_grid.csv
+[WiPTR/val_ood] 楼层 5  链路 1000  用时 0.1s  -> c2full_WiPTR_val_ood.csv
+
+全量完成，总链路 4616452，总用时 284.4s
