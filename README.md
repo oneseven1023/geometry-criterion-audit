@@ -171,11 +171,12 @@ The MATLAB sources that draw Figures 2 to 9 belong to the manuscript submission 
 not part of this repository. `make_paper_figures.py` is an earlier matplotlib version and
 is kept for reference only.
 
-## Licence
+## License
 
-MIT, see `LICENSE`. The derived tables are released under CC BY 4.0. The underlying
-ray-tracing data remain under the terms of the original Qualcomm release and are not
-relicensed here.
+MIT, see `LICENSE`. The license covers everything in this repository: the analysis
+scripts, the normalized link tables, the audit outputs, the result tables and the figure
+files. The raw ray-tracing archive is not included here and remains under the terms of the
+original Qualcomm release, which this repository does not alter.
 
 ## Citation
 
